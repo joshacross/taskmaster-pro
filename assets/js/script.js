@@ -44,6 +44,7 @@ var saveTasks = function() {
   localStorage.setItem("tasks", JSON.stringify(tasks));
 };
 
+// turns p element into a form text input element
 $(".list-group").on("click", "p", function() {
   var text = $(this)
   .text()
@@ -55,12 +56,16 @@ $(".list-group").on("click", "p", function() {
   textInput.trigger("focus");
 });
 
+/* allows to keep updated text when form is clicked off
+    Appends text and translates back to a list element with
+    set attributes and saves task and turns form back into 
+    a p element*/
+    
 $(".list-group").on("blur", "textarea", function() {
   // get the textarea's current value/text
   var text = $(this)
     .val()
     .trim();
-
   //get the parent ul's id attribute
   var status = $(this)
     .closest(".list-group")
