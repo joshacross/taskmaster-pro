@@ -17,6 +17,6 @@ Taskmaster-pro v2.0 is an updated version of Taskmaster-pro using JQuery, JQuery
 https://joshacross.github.io/taskmaster-pro/
 
 ## Reference Images
-"./assets/images/tmp-desktop.png"
+<img src="./assets/images/tmp-desktop.png">
 
-"./assets/images/timp-responsive.png"
+<img src="./assets/images/timp-responsive.png">
