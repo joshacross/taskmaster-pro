@@ -19,4 +19,4 @@ https://joshacross.github.io/taskmaster-pro/
 ## Reference Images
 <img src="./assets/images/tmp-desktop.png">
 
-<img src="./assets/images/timp-responsive.png">
+<img src="./assets/images/tmp-responsive.png">
