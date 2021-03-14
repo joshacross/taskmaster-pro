@@ -23,6 +23,6 @@ https://joshacross.github.io/taskmaster-pro/
 
 <img src="./assets/images/tmp-taskadd.png">
 
-<img src="./assets/images/tmp-taskmove.png">
+<img src="./assets/images/tmp-taskmove-1.png">
 
 <img src="./assets/images/tmp-remove.png">
